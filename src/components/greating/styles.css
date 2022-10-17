@@ -1,0 +1,79 @@
+.greating{
+    padding: 74px 54px 128px;
+    text-align: center;
+}
+.greating__title, 
+.greating__subtitle{
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+}
+.greating__title{
+    margin-bottom: 5px;
+}
+.greating__title span{
+    /* display: inline-block; */
+    color: #5C62EC;
+    white-space: nowrap;
+    margin-left: 10px;
+}   
+.greating h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    margin: 16px 0 24px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.btn{
+    min-width: 172px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    padding: 16px 31.5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn-primary{
+    background-color: #5C62EC;
+}
+.btn-secondary{
+    border: 1px solid #fff;
+    position: relative;
+    padding: 16px 20px 16px 48px;
+}
+.btn-secondary img{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (min-width: 820px){
+    .greating{
+        padding: 128px 100px 306px;
+    }
+    .greating__title, 
+    .greating__subtitle{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 71px;
+    }
+    .greating h4{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .btn-container{
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+    }
+}

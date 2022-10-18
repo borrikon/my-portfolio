@@ -3,7 +3,7 @@ import ProjectImg from '../../assets/project.png';
 
 function Experience(){
     return(
-        <div className='experience__cont'>
+        <div id='projects' className='experience__cont'>
             <h2 className='experience__cont--title'>
                 Projects
             </h2>

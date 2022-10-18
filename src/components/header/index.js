@@ -8,9 +8,9 @@ function Header(){
         <div className='header'>
             <figure className='header__logo'>
                 <img src={logo} alt='logo'/>
-                <figurecaption className='offscreen'>
+                <figcaption className='offscreen'>
                     logo
-                </figurecaption>
+                </figcaption>
             </figure>
             <section className='header__menuBtn'>
                 <div></div>

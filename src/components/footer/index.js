@@ -1,5 +1,6 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
+import { Link as LinkScrool } from 'react-scroll';
 import Logo from '../../assets/Logo.svg';
 import Linked from '../../assets/Linked.svg';
 
@@ -19,7 +20,9 @@ function Footer(){
                             Main
                         </Link>
                     </h2>
-                    <a href='/'>Projects</a>
+                    <LinkScrool to='projects' smooth={true}>
+                        Projects
+                    </LinkScrool>
                 </div>
                 <div className='footer__main--linkCont'>
                     <h2>

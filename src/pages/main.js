@@ -7,8 +7,8 @@ export default function Main(){
     return(
         <>
             <Greating/>
-            <Intro />
-            <Experience />
+            <Intro/>
+            <Experience/>
         </>
     )
 }

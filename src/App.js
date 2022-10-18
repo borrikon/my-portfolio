@@ -1,5 +1,4 @@
 import './App.css';
-import Contacts from './pages/contacts';
 import About from './pages/about';
 import Main from './pages/main';
 import Header from './components/header/index';
@@ -20,7 +19,6 @@ function App() {
           <Routes>
             <Route path='/my-portfolio' element={<Main />} />
             <Route path='/about' element={<About />} />
-            <Route path='contacts' element={<Contacts/>}/> 
           </Routes>
         <Footer />
       </div>

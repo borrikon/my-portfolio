@@ -14,18 +14,19 @@ function Footer(){
                     </figcaption>
                 </figure>
                 <div className='footer__main--linkCont'>
-                    <h2>Inicio</h2>
-                    <Link to='/my-portfolio'>
-                        Acerca de mi
-                    </Link>
-                    <a href='/'>Proyectos</a>
+                    <h2>
+                        <Link to='/my-portfolio'>
+                            Main
+                        </Link>
+                    </h2>
+                    <a href='/'>Projects</a>
                 </div>
                 <div className='footer__main--linkCont'>
-                    <h2>Contáctame</h2>
-                    <Link href='/about'>
-                        About me
-                    </Link>
-                    <a href='/'>LinkedIn</a>
+                    <h2>
+                        <Link href='/about'>
+                            About me
+                        </Link>
+                    </h2>
                 </div>
                 <div className='footer__main--linkCont'>
                     <h2>Social</h2>

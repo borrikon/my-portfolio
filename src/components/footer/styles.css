@@ -20,11 +20,12 @@
     flex-direction: column;
     gap: 24px;
 }
-.footer__main--linkCont h2{
+.footer__main--linkCont h2,
+.footer__main--linkCont h2>a{
     color: #85BFD1;
     font-size: 16px;
 }
-.footer__main--linkCont a{
+.footer__main--linkCont  a{
     font-size: 14px;
     color: #fff;
     white-space: nowrap;

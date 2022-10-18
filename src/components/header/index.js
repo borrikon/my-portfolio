@@ -17,14 +17,11 @@ function Header(){
             </section>
             <section className='header__menu'>
                 <nav className='header__nav'>
-                    <Link to='/' className='header__link'>
-                        Inicio
+                    <Link to='/my-portfolio' className='header__link'>
+                        Main
                     </Link>
                     <Link to='/about' className='header__link'>
-                        Acerca de mi 
-                    </Link>
-                    <Link to='/contacts' className='header__link'>
-                        Contáctame
+                        About 
                     </Link>
                 </nav>
             </section>

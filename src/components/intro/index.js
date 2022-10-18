@@ -1,6 +1,6 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
-import MainImg from '../../assets/FotoPersonal.png';
+import MainImg from '../../assets/PhotoPersonal.jpg';
 import arrowRight from '../../assets/arrowRight.svg';
 function Intro(){
     return(

@@ -1,5 +1,5 @@
 import './styles.css';
-import FotoPersonal from '../../assets/FotoPersonal.png';
+import FotoPersonal from '../../assets/PhotoPersonal.jpg';
 
 function AboutInfo(){
     return(

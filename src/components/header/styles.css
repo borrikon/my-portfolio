@@ -5,38 +5,45 @@
     padding: 18px 16px;
     border-bottom: solid 1px #26292D;
 }
-.header__logo{
-    width: 90px;
-    height: 24px;
-}
-.header__menuBtn div, 
-div::before, 
-div::after{
-    width: 16px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 2px;
+.header__logo img{
+    width: 35px;
 }
 .header__menuBtn div{
     position: relative;
 }
-.header__menuBtn div::before{
-    content: ' ';
-    position: absolute;
-    top: -4px;
-    right: 0;
-}
-.header__menuBtn div::after{
-    content: ' ';
-    position: absolute;
-    width: 8px;
-    top: 4px;
-    right: 0;
-}
 .header__menu{
-    display: none;
+    display: block;
 }
-
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--FONT-COLOR-MAIN);
+    position: relative;
+    transition: all 1s ease-in;
+}
+.header__link::after{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -7px;
+    right: 0;
+    background-color: #5C62EC;
+}
+.header__link:hover::after{
+    width: 100%;
+}
+.active.header__link::after{
+    width: 100%;
+}
 @media screen and (min-width: 820px){
     .header{
         padding: 18px 142px;
@@ -45,37 +52,5 @@ div::after{
         width: 112px;
         height: 32px;
     }
-    .header__menuBtn{
-        display: none;
-    }
-    .header__menu{
-        display: block;
-    }
-    .header__nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-    }
-    .header__link{
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1;
-        color: var(--FONT-COLOR-MAIN);
-        position: relative;
-        transition: all 1s ease-in;
-    }
-    .header__link::after{
-        content: ' ';
-        position: absolute;
-        width: 0%;
-        height: 3px;
-        bottom: -7px;
-        right: 0;
-        background-color: #5C62EC;
-    }
-    .header__link:hover::after{
-        width: 100%;
-    }
+    
 }

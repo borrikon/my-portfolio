@@ -1,6 +1,6 @@
 import './styles.css';
 import '../../index.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/Logo.svg';
 
 function Header(){
@@ -12,17 +12,22 @@ function Header(){
                     logo
                 </figcaption>
             </figure>
-            <section className='header__menuBtn'>
-                <div></div>
-            </section>
             <section className='header__menu'>
                 <nav className='header__nav'>
-                    <Link to='/my-portfolio' className='header__link'>
+                    <NavLink 
+                        to='/my-portfolio' 
+                        className='header__link'
+                        activeclassname='header__link active'
+                    >
                         Main
-                    </Link>
-                    <Link to='/about' className='header__link'>
+                    </NavLink>
+                    <NavLink 
+                        to='/about' 
+                        className='header__link'
+                        activeclassname='header__link active'
+                    >
                         About 
-                    </Link>
+                    </NavLink>
                 </nav>
             </section>
         </div>

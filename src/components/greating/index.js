@@ -1,8 +1,6 @@
 import './styles.css';
-
-import { Link } from 'react-router-dom';
 import { Link as LinkScrool } from 'react-scroll';
-
+import doc from '../../documents/CV.pdf';
 import Download from '../../assets/download.svg';
 
 function Greating(){
@@ -22,12 +20,17 @@ function Greating(){
                         My projects
                     </LinkScrool>
                 </button>
-                <Link to='/CV.pdf' target='_blank' download>
+                <a  
+                    href={doc} 
+                    download='MyCV' 
+                    target='_blank' 
+                    rel="noreferrer"
+                >
                     <button className='btn btn-secondary btn-secondary--download'>
                         <img src={Download} alt=''></img>
                             Download CV
                     </button>
-                </Link>
+                </a>
             </div>
         </div>
     )

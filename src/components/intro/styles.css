@@ -5,6 +5,9 @@
     background-color: #1C1E22;
     padding: 16px;
 }
+.intro__container figure img{
+    border-radius: 8px;
+}
 .intro__info{
     margin-top: 24px;
     max-width: 530px;

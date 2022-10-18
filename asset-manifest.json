@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1ad61f52.css",
-    "main.js": "/my-portfolio/static/js/main.c7183415.js",
+    "main.css": "/my-portfolio/static/css/main.41cb41d4.css",
+    "main.js": "/my-portfolio/static/js/main.f568e429.js",
+    "static/media/FotoPersonal.png": "/my-portfolio/static/media/FotoPersonal.963d7530e5912f422efd.png",
+    "static/media/project.png": "/my-portfolio/static/media/project.759d165aa919cb5502b1.png",
+    "static/media/telegramLogo.svg": "/my-portfolio/static/media/telegramLogo.69581ea690914e80a12a5719286cdeef.svg",
     "static/media/Logo.svg": "/my-portfolio/static/media/Logo.8cd6df5f4009ffeefc2b38982b05da38.svg",
-    "static/media/Linked.svg": "/my-portfolio/static/media/Linked.41ee16f3f453b86bd91fe3d4b3f608f9.svg",
+    "static/media/Linked.svg": "/my-portfolio/static/media/Linked.94348fab234503ce4cb3efdfc3018797.svg",
+    "static/media/IconLayaut.svg": "/my-portfolio/static/media/IconLayaut.3d4086124c45c3c1b9349983ffcd608f.svg",
+    "static/media/Gmail.svg": "/my-portfolio/static/media/Gmail.580a851b5a2584c0ccde05205795de86.svg",
+    "static/media/IconPapers.svg": "/my-portfolio/static/media/IconPapers.96990ac236009c53c1f2154d2618df6d.svg",
     "static/media/download.svg": "/my-portfolio/static/media/download.8beb33098f9cefd20b95b9ef822ad38b.svg",
+    "static/media/IconLang.svg": "/my-portfolio/static/media/IconLang.82cd586f54d6c9d31ceded4db960cbe5.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.1ad61f52.css.map": "/my-portfolio/static/css/main.1ad61f52.css.map",
-    "main.c7183415.js.map": "/my-portfolio/static/js/main.c7183415.js.map"
+    "static/media/IconMan.svg": "/my-portfolio/static/media/IconMan.55a3b07dc96be26c5a16b67f4626ddc5.svg",
+    "static/media/IconMobile.svg": "/my-portfolio/static/media/IconMobile.4e6464a5fc7ce1abaf489db029a8981e.svg",
+    "static/media/IconWeb.svg": "/my-portfolio/static/media/IconWeb.dd616f787699b338e9e989adcc86eae9.svg",
+    "static/media/arrowRight.svg": "/my-portfolio/static/media/arrowRight.2ece33ff0f718e99e0f19786f623a508.svg",
+    "main.41cb41d4.css.map": "/my-portfolio/static/css/main.41cb41d4.css.map",
+    "main.f568e429.js.map": "/my-portfolio/static/js/main.f568e429.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ad61f52.css",
-    "static/js/main.c7183415.js"
+    "static/css/main.41cb41d4.css",
+    "static/js/main.f568e429.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
-    "name": "React App",
-    "short_name": "Create React App Sample",
+    "name": "Web portfolio",
+    "short_name": "Frontend developer CV",
     "icons": [
         {
             "src":"/android-chrome-192x192.png",

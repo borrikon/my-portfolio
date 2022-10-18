@@ -1,4 +1,5 @@
 import './styles.css';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo.svg';
 import Linked from '../../assets/Linked.svg';
 
@@ -14,12 +15,16 @@ function Footer(){
                 </figure>
                 <div className='footer__main--linkCont'>
                     <h2>Inicio</h2>
-                    <a href='/'>Acerca de mi</a>
+                    <Link to='/my-portfolio'>
+                        Acerca de mi
+                    </Link>
                     <a href='/'>Proyectos</a>
                 </div>
                 <div className='footer__main--linkCont'>
                     <h2>Contáctame</h2>
-                    <a href='/'>Acerca de mi</a>
+                    <Link href='/about'>
+                        About me
+                    </Link>
                     <a href='/'>LinkedIn</a>
                 </div>
                 <div className='footer__main--linkCont'>

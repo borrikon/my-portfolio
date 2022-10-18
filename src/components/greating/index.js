@@ -16,7 +16,7 @@ function Greating(){
                 <button className='btn btn-primary'>
                     Ver proyectos
                 </button>
-                <button className='btn btn-secondary'>
+                <button className='btn btn-secondary btn-secondary--download'>
                     <img src={Download} alt=''></img>
                     Descargar CV
                 </button>

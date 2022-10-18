@@ -1,5 +1,6 @@
 import './styles.css';
 import '../../index.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/Logo.svg';
 
 function Header(){
@@ -16,18 +17,15 @@ function Header(){
             </section>
             <section className='header__menu'>
                 <nav className='header__nav'>
-                    <a className='header__link' href='/'>
+                    <Link to='/' className='header__link'>
                         Inicio
-                    </a>
-                    <a className='header__link' href='/'>
+                    </Link>
+                    <Link to='/about' className='header__link'>
                         Acerca de mi 
-                    </a>
-                    <a className='header__link' href='/'>
-                        Proyectos
-                    </a>
-                    <a className='header__link' href='/'>
+                    </Link>
+                    <Link to='/contacts' className='header__link'>
                         Contáctame
-                    </a>
+                    </Link>
                 </nav>
             </section>
         </div>

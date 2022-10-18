@@ -10,7 +10,7 @@
 .projects__item{
     margin-bottom: 20px;
 }
-.projects__item--figure{
+.projects__item--figure img{
     border-radius: 8px;
 }
 .projects__item--descr{

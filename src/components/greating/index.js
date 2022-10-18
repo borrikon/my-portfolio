@@ -22,7 +22,7 @@ function Greating(){
                 </button>
                 <a  
                     href={doc} 
-                    download='MyCV' 
+                    download='JuniorFrontEndDevCV' 
                     target='_blank' 
                     rel="noreferrer"
                 >

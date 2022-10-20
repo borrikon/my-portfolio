@@ -15,7 +15,7 @@
     align-items: center;
 }
 .slillItem{
-    max-width: 330px;
+    width: 330px;
     padding: 16px;
     border-radius: 8px;
     background-color: #1C1E22;
@@ -44,6 +44,7 @@
     .slillItems__cont{
         justify-content: space-around;
         flex-direction: row;
+        align-items: stretch;
         flex-wrap: wrap;
         max-width: 1110px;
         margin: 0 auto;

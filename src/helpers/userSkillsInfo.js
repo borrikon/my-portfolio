@@ -6,57 +6,42 @@ import Layaut from '../assets/IconLayaut.svg';
 import Papers from '../assets/IconPapers.svg';
 export const userSkillsData = [
     {
-        img: MobileImg,
-        skill: `Responsive design`,
-        description: `Con mi experiencia en 
-            patrones de diseño responsive 
-            tengo una visión clara acerca 
-            de como implementarlos de manera 
-            efectiva en cualquier proyecto`,
-    },
-    {
-        img: Lang,
-        skill: `Responsive design`,
-        description: `Con mi experiencia en 
-            patrones de diseño responsive 
-            tengo una visión clara acerca 
-            de como implementarlos de manera 
-            efectiva en cualquier proyecto`,
-    },
-    {
-        img: Man,
-        skill: `Responsive design`,
-        description: `Con mi experiencia en 
-            patrones de diseño responsive 
-            tengo una visión clara acerca 
-            de como implementarlos de manera 
-            efectiva en cualquier proyecto`,
-    },
-    {
         img: Web,
-        skill: `Responsive design`,
-        description: `Con mi experiencia en 
-            patrones de diseño responsive 
-            tengo una visión clara acerca 
-            de como implementarlos de manera 
-            efectiva en cualquier proyecto`,
+        name: `HTML & CSS`,
+        description: `I know what is tags and how to use it 😉.
+                Of course I have knowledge in CSS, SCSS/LESS
+                CSS animation, BEM.`,
+    },
+    {
+        img: MobileImg,
+        name: 'Responsive design',
+        description: `Mobile or desktop? Both!😎`,
+
     },
     {
         img: Layaut,
-        skill: `Responsive design`,
-        description: `Con mi experiencia en 
-            patrones de diseño responsive 
-            tengo una visión clara acerca 
-            de como implementarlos de manera 
-            efectiva en cualquier proyecto`,
+        name: 'JavaScript',
+        description: `Creating scripts, working with API,
+                asynchronos queries and new features.`,
     },
     {
         img: Papers,
-        skill: `Responsive design`,
-        description: `Con mi experiencia en 
-            patrones de diseño responsive 
-            tengo una visión clara acerca 
-            de como implementarlos de manera 
-            efectiva en cualquier proyecto`,
+        name: 'React.js | Next.js',
+        description: `Components, Hooks, State...
+                I have experience with all of it. I used to work 
+                with them in real projects and a lot of pet projects`,
+    },
+    {
+        img: Lang,
+        name: 'Languages',
+        description: `I can speak Ukrainian and English. 
+                I'm sure we will find a common language.`,
+    },
+    {
+        img: Man,
+        name: 'Soft skills',
+        description: `I have a motivation⚡ and desire to
+                improve my skills. I will be glad to 
+                work with new people and get more experience👻`,
     },
 ]

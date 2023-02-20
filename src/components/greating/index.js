@@ -1,6 +1,6 @@
 import './styles.css';
 import { Link as LinkScrool } from 'react-scroll';
-import doc from '../../documents/CV.pdf';
+import doc from '../../documents/MyCV.pdf';
 import Download from '../../assets/download.svg';
 
 function Greating(){

@@ -1,67 +1,67 @@
-.intro__container{
-    margin: 0 16px;
-    border: 1.5px solid #26292D;
-    border-radius: 8px;
-    background-color: #1C1E22;
-    padding: 16px;
+.intro__container {
+  margin: 0 16px;
+  border: 1.5px solid #26292d;
+  border-radius: 8px;
+  background-color: #1c1e22;
+  padding: 16px;
 }
-.intro__container figure img{
-    border-radius: 8px;
+.intro__container figure img {
+  border-radius: 8px;
 }
-.intro__info{
-    margin-top: 24px;
-    max-width: 530px;
+.intro__info {
+  margin-top: 24px;
+  max-width: 530px;
 }
-.info__intro--title{
-    font-size: 25px;
-    line-height: 32px;
-    font-weight: 400;
-    margin-bottom: 16px;
+.info__intro--title {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
-.info__intro--subtitle{
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.44px;
+.info__intro--subtitle {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.44px;
 }
-.info__intro--subtitle p{
-    margin-bottom: 16px;
+.info__intro--subtitle p {
+  margin-bottom: 16px;
 }
-.btn-secondary--link{
-    padding: 16px 44px 16px 20px;
+.btn-secondary--link {
+  padding: 16px 44px 16px 20px;
 }
-.btn-secondary--link img{
-    position: absolute;
-    right: 17px;
-    top: 17px;
-    width: 14px;
-    height: 14px;
+.btn-secondary--link img {
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  width: 14px;
+  height: 14px;
 }
-@media screen and (min-width: 820px){
-    .intro__container{
-        margin: 0 90px 108px;
-        max-width: 967px;
-        display: flex;
-        padding: 24px;
-        gap: 32px;
-    }
-    .intro__container figure img{
-        min-width: 180px;
-    }
-    .intro__info{
-        margin: 0;
-        max-width: 560px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .info__intro--title{
-        font-size: 48px;
-        line-height: 48px;
-        margin-bottom: 32px;
-    }
+@media screen and (min-width: 820px) {
+  .intro__container {
+    margin: 0 90px 108px;
+    max-width: 967px;
+    display: flex;
+    padding: 24px;
+    gap: 32px;
+  }
+  .intro__container figure img {
+    min-width: 480px;
+  }
+  .intro__info {
+    margin: 0;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .info__intro--title {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
 }
-@media screen and (min-width: 1200px){
-    .intro__container{
-        margin: 0 auto 128px;
-    }
+@media screen and (min-width: 1200px) {
+  .intro__container {
+    margin: 0 auto 128px;
+  }
 }

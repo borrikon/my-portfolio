@@ -13,7 +13,6 @@
   margin-bottom: 5px;
 }
 .greeting__title span {
-  /* display: inline-block; */
   color: #5c62ec;
   white-space: nowrap;
   margin-left: 10px;
@@ -41,7 +40,7 @@
 
 @media screen and (min-width: 820px) {
   .greeting {
-    padding: 128px 100px 306px;
+    padding: 128px 100px 156px;
   }
   .greeting__title,
   .greeting__subtitle {

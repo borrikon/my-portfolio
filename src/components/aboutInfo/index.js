@@ -1,16 +1,13 @@
 import "./styles.css";
-import PhotoPersonal from "../../assets/PhotoPersonal.jpg";
 import { useTranslation } from "react-i18next";
+import CodingTs from "../../assets/codingTs.svg";
 
 function AboutInfo() {
   const { t } = useTranslation();
   return (
     <div className="aboutInfo__cont">
       <figure>
-        <img src={PhotoPersonal} alt="me" />
-        <figcaption className="offscreen">
-          {t("aboutInfo.figcaption")}
-        </figcaption>
+        <img src={CodingTs} alt="coder" />
       </figure>
       <section className="userBio">
         <h2 className="userBio__title">{t("aboutInfo.fullname")}</h2>

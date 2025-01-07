@@ -13,8 +13,8 @@ export const en = {
   },
   intro: {
     title: "About me",
-    subtitle: ` Hello, my name is Boris. I’ve found myself in programming a few
-                years ago. At first it was hobby, then it became my job. In my work
+    subtitle: ` Hello, my name is Boris. I discovered my passion for programming a few years ago. 
+                At first it was hobby, then it became my job. In my work
                 I use a wide stack of technologies such as HTML, CSS(SCSS), JS,
                 React.js, Redux, Gulp, Git, npm and others.`,
     link: "More about me",
@@ -25,7 +25,7 @@ export const en = {
     fullname: "Borys Ushnevych",
     role: "Junior front-end developer.",
     text1: `Hello, my name is Boris. I’ve found myself in programming a few
-            years ago. At first it was hobby, then it became my job.`,
+            years ago. At first it was a hobby, then it became my job.`,
     text2: `I am developer with extensive experience in building modern web
             applications using Next.js, React.js, and Redux. I specialize in
             creating efficient, scalable, and user-friendly interfaces,
@@ -60,7 +60,7 @@ export const en = {
     },
     chat: {
       title: "Languages",
-      subtitle: `My native language is Ukrainian. English I use for proficient for communication and work-related tasks. I am currently enrolled in a B2-level course to enhance my fluency.`,
+      subtitle: `My native language is Ukrainian. I English  use for proficient for communication and work-related tasks. I am currently enrolled in a B2-level course to enhance my fluency.`,
     },
     soft: {
       title: "Soft skills",
@@ -73,7 +73,7 @@ export const en = {
     ct: {
       title: "CodeTribe.com",
       subtitle:
-        "I actively contributed to the development of the Codetribe website, a modern and dynamic platform for showcasing services and engaging with users. My responsibilities included: Built and optimized responsive user interfaces using Next.js and React.js, Improved loading times and overall performance, Implemented and managed global state efficiently using Redux, enhancing the functionality and scalability of the platform.",
+        "I actively contributed to the development of the Codetribe website, a modern and dynamic platform for showcasing services and engaging with users. My responsibilities included to built and optimized responsive user interfaces using Next.js and React.js, to improved loading times and overall performance, to implemented and managed global state efficiently using Redux, to enhancing the functionality and scalability of the platform.",
     },
     bn: {
       title: "Buytex Network",

@@ -1,47 +1,47 @@
-.aboutInfo__cont{
-    padding: 32px 16px 64px;
+.aboutInfo__cont {
+  padding: 32px 16px 64px;
 }
-.aboutInfo__cont figure img{
-    border-radius: 8px;
-    min-width: 320px;
-    max-height: 525px;
-    margin: 0 auto 24px;
+.aboutInfo__cont figure img {
+  border-radius: 8px;
+  min-width: 320px;
+  max-height: 525px;
+  margin: 0 auto 24px;
 }
-.userBio{
-    max-width: 327px;
-    margin: 0 auto;
+.userBio {
+  max-width: 327px;
+  margin: 0 auto;
 }
-.userBio__title{
-    font-size: 43px;
-    line-height: 40px;
-    font-weight: 500;
-    margin-bottom: 24px;
+.userBio__title {
+  font-size: 43px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 24px;
 }
-.userBio__subtitle{
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
+.userBio__subtitle {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
 }
-.userBio__subtitle p{
-    margin-bottom: 10px;
+.userBio__subtitle p {
+  margin-bottom: 10px;
 }
-.userBio__email{
-    color: #85BFD1;
+.userBio__email {
+  color: #85bfd1;
 }
 @media screen and (min-width: 820px) {
-    .aboutInfo__cont{
-        padding: 64px 32px 128px;
-        display: flex;
-        justify-content: center;
-        gap: 70px;
-    }
-    .userBio{
-        max-width: 527px;
-        margin: 0;
-    }
+  .aboutInfo__cont {
+    padding: 98px 32px 128px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+  .userBio {
+    max-width: 527px;
+    margin: 0;
+  }
 }
-@media screen and (min-width: 1200px){
-    .aboutInfo__cont{
-        gap: 140px;
-    }
+@media screen and (min-width: 1200px) {
+  .aboutInfo__cont {
+    gap: 140px;
+  }
 }

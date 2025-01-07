@@ -1,0 +1,31 @@
+.select_cont {
+  width: 200px;
+}
+.lng_select {
+  width: 80px;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: var(--FONT-COLOR-MAIN);
+  background-color: var(--MAIN-BG-COLOR);
+  border: 1px solid var(--FONT-COLOR-SECONDARY);
+  border-radius: 5px;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lng_select:hover {
+  border-color: var(--FONT-COLOR-MAIN);
+}
+
+.lng_select:focus {
+  border-color: var(--FONT-COLOR-SECONDARY);
+  box-shadow: 0 0 4px rgba(133, 191, 209, 0.5);
+}
+
+.lng_select option {
+  padding: 8px;
+  color: var(--FONT-COLOR-MAIN);
+  background-color: var(--MAIN-BG-COLOR);
+}

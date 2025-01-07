@@ -1,47 +1,51 @@
-import MobileImg from '../assets/IconMobile.svg';
-import Lang from '../assets/IconLang.svg';
-import Man from '../assets/IconMan.svg';
-import Web from '../assets/IconWeb.svg';
-import Layaut from '../assets/IconLayaut.svg';
-import Papers from '../assets/IconPapers.svg';
-export const userSkillsData = [
-    {
-        img: Web,
-        name: `HTML & CSS`,
-        description: `I know what is tags and how to use it 😉.
-                Of course I have knowledge in CSS, SCSS/LESS
-                CSS animation, BEM.`,
-    },
-    {
-        img: MobileImg,
-        name: 'Responsive design',
-        description: `Mobile or desktop? Both!😎`,
+import Chat from "../assets/skills/chat.svg";
+import Git from "../assets/skills/git.svg";
+import TS from "../assets/skills/ts.svg";
+import JS from "../assets/skills/js.svg";
+import Figma from "../assets/skills/figma.svg";
+import React from "../assets/skills/react.svg";
+import Next from "../assets/skills/next.svg";
+import HTML from "../assets/skills/html.svg";
+import SASS from "../assets/skills/sass.svg";
+import Tailwind from "../assets/skills/tailwind.svg";
+import CSS from "../assets/skills/css.svg";
+import Github from "../assets/skills/github.svg";
+import Me from "../assets/skills/me.svg";
 
-    },
-    {
-        img: Layaut,
-        name: 'JavaScript',
-        description: `Creating scripts, working with API,
-                asynchronos queries and new features.`,
-    },
-    {
-        img: Papers,
-        name: 'React.js | Next.js',
-        description: `Components, Hooks, State...
-                I have experience with all of it. I used to work 
-                with them in real projects and a lot of pet projects`,
-    },
-    {
-        img: Lang,
-        name: 'Languages',
-        description: `I can speak Ukrainian and English. 
-                I'm sure we will find a common language.`,
-    },
-    {
-        img: Man,
-        name: 'Soft skills',
-        description: `I have a motivation⚡ and desire to
-                improve my skills. I will be glad to 
-                work with new people and get more experience👻`,
-    },
-]
+export const userSkillsData = [
+  {
+    img: [HTML, CSS, SASS, Tailwind],
+    name: `skills.html.title`,
+    description: `skills.html.subtitle`,
+  },
+  {
+    img: [Figma],
+    name: "skills.figma.title",
+    description: `skills.figma.subtitle`,
+  },
+  {
+    img: [JS, TS],
+    name: "skills.js.title",
+    description: `skills.js.subtitle`,
+  },
+  {
+    img: [React, Next],
+    name: "skills.react.title",
+    description: `skills.react.subtitle`,
+  },
+  {
+    img: [Git, Github],
+    name: "skills.git.title",
+    description: `skills.git.subtitle`,
+  },
+  {
+    img: [Chat],
+    name: "skills.chat.title",
+    description: `skills.chat.subtitle`,
+  },
+  {
+    img: [Me],
+    name: "skills.soft.title",
+    description: `skills.soft.subtitle`,
+  },
+];

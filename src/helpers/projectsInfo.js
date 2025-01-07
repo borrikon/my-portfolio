@@ -1,29 +1,33 @@
-import ProjectImg from '../assets/projectB.png';
-import ProjectImg1 from '../assets/projectF.png';
-import ProjectImg2 from '../assets/projectJ.png';
-import ProjectImg3 from '../assets/projectPizza.png';
+import ProjectImg from "../assets/projects/projectB.png";
+import ProjectImg1 from "../assets/projects/projectF.png";
+import ProjectImg2 from "../assets/projects/projectJ.png";
+import ProjectImg3 from "../assets/projects/projectPizza.png";
+import ProjectImg4 from "../assets/projects/CT.png";
 
 export const projectsInfo = [
-    {
-        img: ProjectImg,
-        title: 'Buytex Network',
-        descr: `The website for buying and selling crypto
-                Based on React, MobX.`,
-    },
-    {
-        img: ProjectImg1,
-        title: 'G-soft',
-        descr: `SPA for developing company.`,
-    },
-    {
-        img: ProjectImg2,
-        title: 'Front-line',
-        descr: `Website for programming courses.
-        This project based on Next.js.`,
-    },
-    {
-        img: ProjectImg3,
-        title: 'OceanPizza',
-        descr: `Pizza shop SPA.`,
-    },
-]
+  {
+    img: ProjectImg4,
+    title: "projects.ct.title",
+    descr: "projects.ct.subtitle",
+  },
+  {
+    img: ProjectImg,
+    title: "projects.bn.title",
+    descr: "projects.bn.subtitle",
+  },
+  {
+    img: ProjectImg1,
+    title: "projects.gs.title",
+    descr: "projects.gs.subtitle",
+  },
+  {
+    img: ProjectImg2,
+    title: "projects.fl.title",
+    descr: "projects.fl.subtitle",
+  },
+  {
+    img: ProjectImg3,
+    title: "projects.op.title",
+    descr: "projects.op.subtitle",
+  },
+];

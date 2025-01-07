@@ -1,51 +1,59 @@
-.experience__cont{
-    margin: 64px 16px;
+.experience__cont {
+  margin: 64px 16px;
 }
-.experience__cont--title{
-    font-style: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 32px;
+.experience__cont--title {
+  font-style: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
-.projects__item{
-    margin-bottom: 20px;
+.projects__item {
+  margin-bottom: 20px;
 }
-.projects__item--figure img{
-    border-radius: 8px;
+.projects__item--figure img {
+  border-radius: 8px;
 }
-.projects__item--descr{
-    margin-top: 5px;
-    margin-left: 5px;
+.projects__item--descr {
+  margin-top: 5px;
+  margin-left: 5px;
 }
-.projects__item--descr h4{
+.projects__item--descr h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5c62ec;
+}
+.projects__item--descr p {
+  font-size: 16px;
+}
+@media screen and (min-width: 820px) {
+  .experience__cont {
+    margin: 64px 90px 128px;
+  }
+  .experience__cont--title {
+    font-size: 44px;
+    line-height: 40px;
+    margin-bottom: 64px;
+  }
+  .projects__item {
+    margin-bottom: 44px;
+  }
+  .projects__item--descr h4 {
+    font-size: 20px;
+  }
+  .projects__item--descr p {
     font-size: 18px;
-    font-weight: 500;
+  }
 }
-.projects__item--descr p{
-    font-size: 16px;
-}
-@media screen and (min-width: 820px){
-    .experience__cont{
-        margin: 64px 90px 128px;
-    }
-    .experience__cont--title{
-        font-size: 34px;
-        line-height: 40px;
-        margin-bottom: 64px;
-    }
-    .projects__item{
-        margin-bottom: 24px;
-    }
-    .projects__item--descr h4{
-        font-size: 20px;
-    }
-    .projects__item--descr p{
-        font-size: 18px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .experience__cont{
-        max-width: 1155px;
-        margin: 0 auto 128px;
-    }
+@media screen and (min-width: 1200px) {
+  .experience__cont {
+    max-width: 1155px;
+    margin: 0 auto 128px;
+  }
+  .projects__item--descr h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
 }

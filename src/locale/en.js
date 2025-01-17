@@ -60,7 +60,7 @@ export const en = {
     },
     chat: {
       title: "Languages",
-      subtitle: `My native language is Ukrainian. I English  use for proficient for communication and work-related tasks. I am currently enrolled in a B2-level course to enhance my fluency.`,
+      subtitle: `My native language is Ukrainian. I use English for proficient for communication and work-related tasks. I am currently enrolled in a B2-level course to enhance my fluency.`,
     },
     soft: {
       title: "Soft skills",

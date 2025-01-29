@@ -9,7 +9,8 @@ export const en = {
     subtitle: "Front-end developer",
     welcome: "Welcome to my webpage! 🚀",
     goto: "Go to projects",
-    download: "Download CV",
+    download_en: "Download CV (Eng)",
+    download_de: "Download CV (De)",
   },
   intro: {
     title: "About me",

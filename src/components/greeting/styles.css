@@ -30,6 +30,10 @@
   align-items: center;
   gap: 16px;
 }
+.btn-secondary--download {
+  width: 215px;
+}
+
 .btn-secondary--download img {
   position: absolute;
   top: 14px;

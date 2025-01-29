@@ -1,32 +1,31 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 /* basic reset */
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 input,
 button,
 textarea {
-    font: inherit;
+  font: inherit;
 }
-a{
+a {
   text-decoration: none;
   display: inline-block;
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--MAIN-BG-COLOR);
@@ -34,24 +33,23 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-:root{
+:root {
   --MAIN-BG-COLOR: #171718;
-  --FONT-COLOR-MAIN: #FFFFFF;
-  --FONT-COLOR-SECONDARY: #85BFD1;
-
+  --FONT-COLOR-MAIN: #ffffff;
+  --FONT-COLOR-SECONDARY: #85bfd1;
 }
 
 /* Utility classes */
 
-.offscreen{
+.offscreen {
   position: absolute;
   left: -100000px;
 }
-.btn{
+.btn {
   min-width: 172px;
   font-weight: 500;
   font-size: 16px;
@@ -62,13 +60,13 @@ code {
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
 }
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
-.btn-primary{
-  background-color: #5C62EC;
+.btn-primary {
+  background-color: #5c62ec;
 }
-.btn-secondary{
+.btn-secondary {
   border: 1px solid #fff;
   position: relative;
   padding: 16px 20px 16px 48px;

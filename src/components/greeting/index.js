@@ -1,6 +1,7 @@
 import "./styles.css";
 import { Link as LinkScrool } from "react-scroll";
-import doc from "../../documents/CV_Frontend_dev_2025.pdf";
+import doc_en from "../../documents/CV_Borys_Ushnevych_en.pdf";
+import doc_de from "../../documents/CV_Borys_Ushnevych_de.pdf";
 import Download from "../../assets/download.svg";
 import { useTranslation } from "react-i18next";
 
@@ -21,14 +22,25 @@ function Greeting() {
           </LinkScrool>
         </button>
         <a
-          href={doc}
+          href={doc_en}
           download="JuniorFrontEndDevCV"
           target="_blank"
           rel="noreferrer"
         >
           <button className="btn btn-secondary btn-secondary--download">
             <img src={Download} alt="" />
-            {t("greeting.download")}
+            {t("greeting.download_en")}
+          </button>
+        </a>
+        <a
+          href={doc_de}
+          download="JuniorFrontEndDevCV"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn btn-secondary btn-secondary--download">
+            <img src={Download} alt="" />
+            {t("greeting.download_de")}
           </button>
         </a>
       </div>

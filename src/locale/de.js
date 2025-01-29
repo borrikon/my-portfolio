@@ -9,7 +9,8 @@ export const de = {
     subtitle: "Frontend-Entwickler",
     welcome: "Willkommen auf meiner Webseite! 🚀",
     goto: "Zu den Projekten",
-    download: "Lebenslauf herunterladen",
+    download_en: "Lebenslauf herunterladen (Eng)",
+    download_de: "Lebenslauf herunterladen (De)",
   },
   intro: {
     title: "Über mich",
